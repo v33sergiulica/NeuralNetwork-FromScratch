@@ -2,6 +2,18 @@
 
 A **Custom Neural Network Engine** built in C# (.NET 8) from first principles (without deep learning frameworks like PyTorch or TensorFlow) paired with a **Real-Time Unity Interactive UI** for handwritten digit recognition.
 
+[![GitHub release](https://img.shields.io/github/v/release/v33sergiulica/NeuralNetwork-FromScratch?color=blue&label=Download%20Build)](https://github.com/v33sergiulica/NeuralNetwork-FromScratch/releases)
+
+---
+
+## 📸 Demo Preview
+
+| Real-Time Unity Canvas Drawing | Prediction & Inference |
+| :---: | :---: |
+| *(Add your screenshot/GIF here)* | *(Real-time prediction feed)* |
+
+> 🎮 **Try it yourself**: Download the pre-compiled executable zip from [GitHub Releases](https://github.com/v33sergiulica/NeuralNetwork-FromScratch/releases).
+
 ---
 
 ## 🌟 Highlights
