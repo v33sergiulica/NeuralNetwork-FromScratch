@@ -8,9 +8,7 @@ A **Custom Neural Network Engine** built in C# (.NET 8) from first principles (w
 
 ## 📸 Demo Preview
 
-| Real-Time Unity Canvas Drawing | Prediction & Inference |
-| :---: | :---: |
-| *(Add your screenshot/GIF here)* | *(Real-time prediction feed)* |
+![Real-Time Unity Digit Recognition Demo](docs/demo.gif)
 
 > 🎮 **Try it yourself**: Download the pre-compiled executable zip from [GitHub Releases](https://github.com/v33sergiulica/NeuralNetwork-FromScratch/releases).
 
