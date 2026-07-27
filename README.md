@@ -16,8 +16,9 @@ A **Custom Neural Network Engine** built in C# (.NET 8) from first principles (w
 
 ## 🌟 Highlights
 
+- **Verified 96.89% Test Accuracy**: Evaluated on 10,000 unseen test images from the official MNIST test dataset.
 - **Custom Neural Network Architecture**: Built backpropagation, vector matrix operations, activation functions, and mini-batch gradient descent from scratch.
-- **Data Augmentation Pipeline**: Multi-threaded data augmentation (Parallel.For) applying random translation ($\pm 2$ px), scaling ($0.85\times - 1.15\times$), rotation ($\pm 15^\circ$), and noise injection to double training set size and boost real-world accuracy on user drawings.
+- **Data Augmentation Pipeline**: Multi-threaded data augmentation (`Parallel.For`) applying random translation ($\pm 2$ px), scaling ($0.85\times - 1.15\times$), rotation ($\pm 15^\circ$), and noise injection to double training set size and boost real-world accuracy on user drawings.
 - **Standalone Unity Inference**: Zero-dependency C# inference engine running inside Unity without external DL libraries, reading custom binary serialized weights (`.bin`).
 - **Interactive Drawing Canvas**: Smooth 3x3 soft-brush canvas in Unity matching MNIST digit stroke styles, handling coordinate normalization and real-time inference prediction.
 
