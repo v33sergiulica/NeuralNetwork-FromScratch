@@ -57,10 +57,14 @@ public class DrawingGrid : MonoBehaviour
             ClearGrid();
         }
 
-        // Inchidere aplicatie pe tasta ESC
+        // Inchidere aplicatie pe tasta ESC (Editor & Build)
         if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
         {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
             Application.Quit();
+#endif
         }
     }
 
