@@ -56,6 +56,12 @@ public class DrawingGrid : MonoBehaviour
         {
             ClearGrid();
         }
+
+        // Inchidere aplicatie pe tasta ESC
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            Application.Quit();
+        }
     }
 
     // Brush Settings
