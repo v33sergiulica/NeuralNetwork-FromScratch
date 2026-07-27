@@ -1,0 +1,25 @@
+# Build & Tooling outputs
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# MNIST Datasets (large raw binary files - see README for download link)
+*.idx3-ubyte
+*.idx1-ubyte
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Unity temp & build folders (if project folder is added later)
+[L|l]ibrary/
+[T|t]emp/
+[O|o]bj/
+[B|b]uild/
+[B|b]uilds/
+[L|l]ogs/
+[U|u]nityGenerated/
