@@ -107,4 +107,4 @@ $$dW^{[1]} = \frac{1}{m} dZ^{[1]} X^T, \quad db^{[1]} = \frac{1}{m} \sum dZ^{[1]
 
 ## 👤 Author
 
-Developed by **[Your Name]** as a deep-dive exploration into Neural Networks from first principles and real-time C# inference engines.
+Developed by myself as a deep-dive exploration into Neural Networks from first principles and real-time C# inference engines.
